@@ -20,9 +20,7 @@ npm install
 npx playwright install
 
 
-# Run the Test:
 
-npm run runTest
 
 
 
