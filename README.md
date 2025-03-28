@@ -9,33 +9,16 @@ Ensure you have the following installed:
 - **Node.js** (LTS recommended)
 - **Playwright** (`@playwright/test` package)
 
-## Installation
+## Installation and Running the script
 
-Clone the repository and install dependencies:
+Clone the repository, install dependencies and run the project:
 
 ```sh
 git clone <repository-url>
 cd <project-folder>
 npm install
 npx playwright install
-
-
-## Running Tests
-
-Execute tests with these commands:
-
-```sh
-# Run all tests in headless mode (default)
-npm test
-
-# Run tests with UI (headed mode)
-npm run test:headed
-
-# Run specific test file
-npx playwright test tests/login.spec.js
-
-# Generate HTML test report
-npx playwright show-report
+npm run runTest
 
 
 
