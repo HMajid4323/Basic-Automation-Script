@@ -20,9 +20,22 @@ npm install
 npx playwright install
 
 
-# Run the Test:
+## Running Tests
 
-npm run runTest
+Execute tests with these commands:
+
+```sh
+# Run all tests in headless mode (default)
+npm test
+
+# Run tests with UI (headed mode)
+npm run test:headed
+
+# Run specific test file
+npx playwright test tests/login.spec.js
+
+# Generate HTML test report
+npx playwright show-report
 
 
 
